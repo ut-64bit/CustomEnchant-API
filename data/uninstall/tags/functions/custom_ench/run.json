@@ -1,0 +1,7 @@
+{
+    "values": [
+        "uninstall:custom_ench/run",
+        "uninstall:enchant_plus/run",
+        "uninstall:system/finish"
+    ]
+}

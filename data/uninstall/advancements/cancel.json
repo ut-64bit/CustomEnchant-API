@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "score": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:value_check",
+                        "value": {
+                            "type": "minecraft:score",
+                            "target": "this",
+                            "score": "UninstallWait"
+                        },
+                        "range": 1
+                    },
+                    {
+                        "condition": "minecraft:value_check",
+                        "value": {
+                            "type": "minecraft:score",
+                            "target": "this",
+                            "score": "UninstallWaitTime",
+                            "scale": 0.05
+                        },
+                        "range": {
+                            "min": 30
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "uninstall:system/cancel"
+    }
+}

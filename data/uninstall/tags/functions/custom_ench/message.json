@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "uninstall:custom_ench/message",
+        "uninstall:enchant_plus/message"
+    ]
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "nbt": "Data.Name",
+                    "storage": "_index.d:custom_ench",
+                    "interpret": false,
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " "
+                },
+                {
+                    "nbt": "Data.Level",
+                    "storage": "_index.d:custom_ench",
+                    "interpret": false,
+                    "color": "gray",
+                    "italic": false
+                }
+            ]
+        ],
+        "replace": false
+    }
+]
