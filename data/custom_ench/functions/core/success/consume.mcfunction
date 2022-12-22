@@ -1,7 +1,8 @@
 #> custom_ench:core/success/consume
 # 素材を消費させる
-# @within function custom_ench:core/success/
+# @internal
 
+    execute store result score $Add.Count CE.Temporary run data get entity @s Item.Count 1.0
 # 数が1個ならkill
     execute if score $Add.Count CE.Temporary matches 1 run kill @s
 

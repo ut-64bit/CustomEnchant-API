@@ -1,0 +1,30 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "name": "CustomEnch.Base",
+                "amount": 1,
+                "operation": "addition",
+                "id": "845DB27C-C624-495F-8C9F-6020A9A58B6B",
+                "slot": "feet"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "feet": {
+                            "items": [
+                                "minecraft:leather_boots"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
