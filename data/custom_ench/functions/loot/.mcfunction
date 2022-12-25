@@ -1,8 +1,5 @@
 #> custom_ench:loot/
 # @within function custom_ench:system/tick
-# `
-# {Data:{ Custom:[ {Namespace:"custom_ench", Enable:true, Enchant:{ Low:[ { id:"custom_ench:example", Enable:true, Level:5 } ] } } ] }}
-# `
 
 #>
 # @internal
@@ -35,3 +32,9 @@ execute as @e[tag=Temp.Item] run function custom_ench:core/set_lore/
 tag @e[tag=Temp.Item] remove Temp.Item
 
 function custom_ench:core/success/consume
+
+playsound block.enchantment_table.use block @a ~ ~ ~ 1 1 0
+particle minecraft:enchant ~ ~1.7 ~ 0 0 0 1 50 normal @a
+
+data remove storage _index.d:custom_ench Data.Loot
+data remove storage _index.d:custom_ench Data.Book

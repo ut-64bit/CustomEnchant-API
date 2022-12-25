@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": " → ",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "nbt": "Data.MergeItem",
+                    "storage": "_index.d:custom_ench",
+                    "interpret": false
+                }
+            ]
+        ],
+        "replace": false
+    }
+]

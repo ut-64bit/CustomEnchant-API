@@ -7,8 +7,8 @@
                 "name": "CustomEnch.Base",
                 "amount": 2,
                 "operation": "addition",
-                "id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-                "slot": "legs"
+                "id": "845DB27C-C624-495F-8C9F-6020A9A58B6B",
+                "slot": "feet"
             }
         ],
         "conditions": [
@@ -19,7 +19,7 @@
                     "equipment": {
                         "mainhand": {
                             "items": [
-                                "minecraft:leather_leggings"
+                                "minecraft:iron_boots"
                             ]
                         }
                     }

@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "CustomEnch.Base",
+                "amount": 8,
+                "operation": "addition",
+                "id": "9F3D476D-C118-4544-8365-64846904B48E",
+                "slot": "chest"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "CustomEnch.Base",
+                "amount": 3,
+                "operation": "addition",
+                "id": "9F3D476D-C118-4544-8365-64846904B48E",
+                "slot": "chest"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "name": "CustomEnch.Base",
+                "amount": 0.1,
+                "operation": "addition",
+                "id": "0-1-438d-0-28d34",
+                "slot": "chest"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:netherite_chestplate"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

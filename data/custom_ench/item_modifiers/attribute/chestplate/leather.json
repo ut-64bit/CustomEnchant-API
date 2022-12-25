@@ -5,10 +5,10 @@
             {
                 "attribute": "minecraft:generic.armor",
                 "name": "CustomEnch.Base",
-                "amount": 2,
+                "amount": 3,
                 "operation": "addition",
-                "id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-                "slot": "legs"
+                "id": "9F3D476D-C118-4544-8365-64846904B48E",
+                "slot": "chest"
             }
         ],
         "conditions": [
@@ -19,7 +19,7 @@
                     "equipment": {
                         "mainhand": {
                             "items": [
-                                "minecraft:leather_leggings"
+                                "minecraft:leather_chestplate"
                             ]
                         }
                     }
