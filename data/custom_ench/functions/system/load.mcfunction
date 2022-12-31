@@ -3,6 +3,7 @@
 # @within tag/function minecraft:load
 
 scoreboard objectives add CE.Temporary dummy
+scoreboard objectives add XP.Level level
 scoreboard objectives add Random dummy
 
 scoreboard players set $lcg_a Random 1630111353

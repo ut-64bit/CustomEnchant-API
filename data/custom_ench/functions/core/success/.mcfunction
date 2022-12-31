@@ -14,5 +14,6 @@
     data remove storage _index.d:custom_ench Data
 
 # 演出
+    experience add @p -5 levels
     playsound minecraft:block.anvil.use block @a ~ ~ ~ 1 1
     particle minecraft:enchanted_hit ~ ~1 ~ 0.4 0.4 0.4 0 10 normal @a
